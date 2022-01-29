@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  background-color: #1e1e1e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body .container {
+  margin-top: 70px;
+  padding-top: 60px;
+  width: 600px;
+  height: 550px;
+  border-radius: 45px;
+  background: #1e1e1e;
+  -webkit-box-shadow: 24px 24px 48px #191919, -24px -24px 48px #232323;
+          box-shadow: 24px 24px 48px #191919, -24px -24px 48px #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body .container h1 {
+  color: #7f8181;
+  font-family: 'Roboto';
+  letter-spacing: .5px;
+  font-size: 40px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+* body .container .input-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  padding-top: 45px;
+}
+
+* body .container .input-fields p {
+  padding: 0px 0px 0px;
+  padding-left: 5px;
+  font-size: 13px;
+  width: 350px;
+}
+
+* body .container .input-fields p.Email-error {
+  display: none;
+}
+
+* body .container .input-fields p.Password-error {
+  display: none;
+}
+
+* body .container .input-fields input {
+  width: 400px;
+  outline: none;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 10px;
+  padding-left: 15px;
+  background: #262626;
+  color: #a1a1a1;
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-box-shadow: inset 5px 5px 5px #232323,  inset -5px -5px 5px #292929;
+          box-shadow: inset 5px 5px 5px #232323,  inset -5px -5px 5px #292929;
+}
+
+* body .container .btns {
+  padding-top: 20px;
+}
+
+* body .container .btns button {
+  outline: none;
+  color: #7f8181;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  border: none;
+  background: #262626;
+  -webkit-box-shadow: inset 5px 5px 5px #232323,  inset -5px -5px 5px #292929;
+          box-shadow: inset 5px 5px 5px #232323,  inset -5px -5px 5px #292929;
+  width: 120px;
+  cursor: pointer;
+}
+
+* body .container p {
+  color: #7f8181;
+  font-family: 'roboto';
+  padding-top: 30px;
+}
+
+* body .container p span {
+  cursor: pointer;
+}
+
+* body .container p span:hover {
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+}
+/*# sourceMappingURL=style.css.map */

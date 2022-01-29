@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth/Sign-in</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id = "header">Sign in</h1>
+        <div class="input-fields">
+            <input type = text placeholder="Email" name = "Email" class = "Email" id = "Email" autofocus spellcheck="false" autocomplete="off">
+            <p id = "Email-error" class = "Email-error">Email-error</p>
+            <input type= "password" class="Password" id = "Password" name = "Password" placeholder="Password">
+            <p id = "Password-error" class = "Password-error">Password-error</p>
+        </div>
+        <div class="btns">
+            <button class = "Sign-in" id = "Sign-in" onClick = "handleSignIn()">Sign in</button>
+        </div>
+        <p id = "account">Don't have an account? <span id = "btn-text">Sign Up</span></p>
+    </div>
+    <script src = "../javascript/Sign-in.js"></script>
+    <script type="module" src = "../javascript/config.js"></script>
+</body>
+</html>
